@@ -6,4 +6,4 @@
 
 const addBinary = (a,b) => (a + b).toString(2);
 
-console.log(parseInt("1010" , 2)); // شوف هون
+console.log(parseInt("1010" , 2)); 
