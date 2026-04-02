@@ -34,6 +34,5 @@ function isSumOfCubes2(s) {
 
 // OR
 
-// يعني هون اول شي بنفذ القوس الثاني و بعدين قيمتو بتكون قيمة الباراميتر و بيتنفذ القوس الاول
 const isSumOfCubes3 = s => (arr => arr.length && `${arr.join(` `)} ${arr.reduce((pre, val) => pre + val, 0)} Lucky` || `Unlucky`)
 (s.match(/\d{1,3}/g).filter(val => [...val].reduce((pre, v) => pre + v ** 3, 0) == val).map(Number));
