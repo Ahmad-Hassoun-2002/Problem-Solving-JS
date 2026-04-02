@@ -63,7 +63,7 @@ function heaviestBox2(weightOfEachTwoBoxes){
 }
 
 // OR
-// احترااف و فن
+
 function heaviestBox(weights){
     weights.sort((a,b) => a-b)
     let allSum = weights.reduce((s,v) => s+v) / 4
